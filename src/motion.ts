@@ -67,7 +67,7 @@ class StyleSheet {
       }
 
       .${computedName} {
-        transiton-duration: var(--${computedName}-duration);
+        transition-duration: var(--${computedName}-duration);
         transition-timing-function: var(--${computedName}-timing-function);
       }
     `;
